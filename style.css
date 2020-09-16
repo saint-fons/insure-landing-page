@@ -4,6 +4,12 @@ body {
     margin: auto;
 }
 /*header*/
+
+.header {
+    padding: 0;
+    margin-bottom: 150px;
+}
+
 h3 {
     font-size: 16px;
 }
@@ -26,7 +32,7 @@ h3 {
 
 .intro {
     width: 100%;
-    height: 850px;
+    height: 950px;
 
     background-color: #252341;
 }
@@ -86,11 +92,36 @@ h3 {
     width: 100px;
     height: 50px;
     position: relative;
-    top: -120px;
+    top: -470px;
     left: 30px;
     z-index: 0;
 }
 
+.bg-pattern-intro {
+    position: relative;
+    top: -170px;
+    left: 115px;
+    z-index: 0;
+}
+
+
+.we-different {
+    font-size: 38px;
+    text-align: center;
+}
+
+.icon-snappy-process {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+
+.section-headers {
+    font-size: 28px;
+    text-align: center;
+}
 
 
 /*header*/
