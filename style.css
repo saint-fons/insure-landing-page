@@ -3,6 +3,11 @@ body {
     height: 100%;
     margin: auto;
 }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 /*header*/
 
 .header {
@@ -125,3 +130,100 @@ h3 {
 
 
 /*header*/
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 100%;
+}
+
+.find-out {
+    width: 350px;
+    height: 400px;
+
+    background-color: #252341;
+}
+
+
+.how-we-work {
+    float: right;
+}
+
+.find-text{
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-size: 35px;
+
+    text-align: center;
+    margin-left: auto;
+}
+
+.insure-footer {
+    width: 350px;
+    height: 750px;
+    margin-top: 75px;
+
+    background-color: #ecf1f1;
+}
+
+.insure-img {
+    width: 350px;
+    position: absolute;
+}
+
+.insure-footer-text {
+    font-size: 35px;
+
+    width: 100px;
+    height: 40px;
+
+    position: relative;
+    top: 110px;
+    left: 110px;
+    z-index: 1;
+}
+
+.social-icons {
+    width: 150px;
+    height: 50px;
+
+    position: relative;
+    top: 130px;
+    left: 120px;
+    z-index: 1;
+
+
+}
+
+
+
+
+
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
